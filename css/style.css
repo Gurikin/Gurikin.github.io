@@ -1,6 +1,7 @@
 body {
     margin: 0;
-    font-family: 'Roboto';
+    /* font-family: 'Roboto'; */
+    font-family: 'YanoneKaffeesatz';
     font-size: 18px;
 }
 
@@ -10,8 +11,9 @@ img {
 
 header {
     padding-top: 59px;
-    padding-bottom: 22px;
-    background-color: #3a7dfd;
+    padding-bottom: 22px;    
+    /* background-color: #3a7dfd; */
+    background: linear-gradient(90deg,#3a7efdcb, #072b6f );
     color: #fff;
 }
 
@@ -33,7 +35,7 @@ header {
 .header-button {
     display: inline-block;
     text-decoration: none;
-    box-shadow: 10px 17px 34px 6px rgba(18, 71, 145, 0.83);
+    box-shadow: 10px 17px 17px 6px rgba(18, 71, 145, 0.83);
     border-radius: 50px;
     border: 0px;
     /*1px solid #888888; */
@@ -47,13 +49,13 @@ header {
 }
 
 .header-button:hover {
-    box-shadow: 5px 5px 10px 3px rgba(18, 71, 145, 0.83);
+    box-shadow: 3px 3px 5px 1px rgba(18, 71, 145, 0.83);
 }
 
 .header-small {
     font-size: 12px;
     display: block;
-    text-align: center;
+    text-align: left;
     margin-top: 9px;
 }
 
@@ -108,9 +110,12 @@ header {
 }
 
 .portfolio-text {
+    max-width: 93%;
     color: #8f8f8f;
     font-size: 14px;
     font-weight: 400;
+    text-align: justify;
+    text-justify: newspaper;
 }
 
 .portfolio-block a {
@@ -121,7 +126,8 @@ header {
 }
 
 footer {
-    background-color: #3a7dfd;
+    background: linear-gradient(to top, #072b6f, #3a7dfd);
+    /* background-color: #3a7dfd; */
     color: #fff;
     padding-top: 60px;
     padding-bottom: 110px;
@@ -169,7 +175,7 @@ footer {
     /* box-shadow: 0px 0px 20px 6px rgba(18, 71, 145, 0.83);
     border: 1px solid #3a7dfd; */
     background-color: #fff;
-    color: #3a7dfd;
+    color: #072b6f;
 }
 
 @media (max-width: 1200px) {
