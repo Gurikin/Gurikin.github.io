@@ -43,10 +43,10 @@ header {
     font-weight: 700;
     padding: 17px 55px;
     margin-top: 33px;
+    transition: 0.2s;
 }
 
 .header-button:hover {
-    /* background-color: #dddddd; */
     box-shadow: 5px 5px 10px 3px rgba(18, 71, 145, 0.83);
 }
 
@@ -162,11 +162,14 @@ footer {
     color: #fff;
     border-radius: 50px;
     padding: 12px 40px;
+    transition: 0.2s;
 }
 
 .footer-button:hover {
-    box-shadow: 0px 0px 20px 6px rgba(18, 71, 145, 0.83);
-    border: 1px solid #3a7dfd;
+    /* box-shadow: 0px 0px 20px 6px rgba(18, 71, 145, 0.83);
+    border: 1px solid #3a7dfd; */
+    background-color: #fff;
+    color: #3a7dfd;
 }
 
 @media (max-width: 1200px) {
