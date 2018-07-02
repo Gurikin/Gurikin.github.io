@@ -1,0 +1,226 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, rt, th, td, article, aside, canvsas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    display: block;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font: 14px/18px Georgia, 'Times New Roman', Times, serif;
+    background-color: #fff;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/* #wrapper {
+    height: 1573px;
+} */
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.top-border {
+    height: 5px;
+    background-color: #76c38f;
+}
+
+#header {
+    position: absolute;
+    top: 22px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 22px 0;
+}
+
+.title {
+    float: left;
+    font-size: 32pt;
+}
+
+.title a {
+    color: #fff;
+}
+
+.title pre {
+    color: #aaaaaa;
+    font-size: 11pt;
+    padding-top: 10px;
+}
+
+.nav {
+    float: right;
+}
+
+.nav li {
+    float: left;
+    margin-right: 40px;
+}
+
+.nav li:last-child {
+    margin-right: 0;
+}
+
+.nav a {
+    text-transform: uppercase;
+    font-size: 14pt;
+    color: #fff;
+}
+
+#body-background {
+    /* position: relative; */
+    /* width: 1200px; */
+    height: 1573px;
+    background-color: #290000;
+    background: #290000 url(../img/home-bg3.png) no-repeat center bottom;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.slider {
+    color: #ffffff;
+    height: 600px;
+    background: url(../img/slider.png) no-repeat center bottom;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.review-wrap {
+    position: relative;
+}
+
+.review-title {
+    padding-top: 229px;
+    float: left;
+}
+
+.slider h1 {
+    font: 34pt/34pt Georgia, Arial, sans-serif;
+    color: #fff;
+    margin-bottom: 32px
+}
+
+.slider p {
+    font: 12pt/12pt Georgia, Arial, sans-serif;
+    color: #999;
+    margin-bottom: 23px;
+}
+
+.btn {
+    padding: 12px 16px;
+    font: 13pt Georgia, Arial, sans-serif;
+    background-color: #76c38f;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.slider .slider-photo {
+    margin-top: 125px;
+    float: right;
+    width: 380px;
+    height: 380px;
+    background: url(../img/avatar.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: 100%;
+    border: 27px solid #6b6b6b;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 960px;
+        margin: 0 auto;
+        transition: 0.4s;
+    }
+}
+
+@media (max-width: 1060px) {
+    .container {
+        width: 768px;
+        margin: 0 auto;
+        transition: 0.4s;
+    }
+    .slider .slider-photo {
+        width: 380px;
+        height: 380px;
+        border: 27px solid #6b6b6b;
+        transition: 0.4s;
+    }
+}
+
+@media (max-width: 808px) {
+    .container {
+        width: 640px;
+        margin: 0 auto;
+        transition: 0.4s;
+    }
+    .slider .slider-photo {
+        display: block;
+        width: 240px;
+        height: 240px;
+        border: 10px solid #6b6b6b;
+        transition: 0.4s;
+    }
+}
+
+@media (max-width: 700px) {
+    .container {
+        width: 520px;
+        margin: 0 auto;
+        transition: 0.4s;
+    }
+    .slider .slider-photo {
+        display: none;
+        transition: 0.4s;
+    }
+}
