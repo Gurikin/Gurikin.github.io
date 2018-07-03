@@ -1,4 +1,4 @@
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, rt, th, td, article, aside, canvsas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, capxion, tbody, tfoot, thead, rt, th, td, article, aside, canvsas, details, embed, figure, figcapxion, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -77,7 +77,7 @@ a, a:hover {
 
 .title {
     float: left;
-    font-size: 32pt;
+    font-size: 32px;
 }
 
 .title a {
@@ -86,7 +86,7 @@ a, a:hover {
 
 .title pre {
     color: #aaaaaa;
-    font-size: 11pt;
+    font-size: 11px;
     padding-top: 10px;
 }
 
@@ -105,7 +105,7 @@ a, a:hover {
 
 .nav a {
     text-transform: uppercase;
-    font-size: 14pt;
+    font-size: 14px;
     color: #fff;
 }
 
@@ -141,20 +141,20 @@ a, a:hover {
 }
 
 .slider h1 {
-    font: 34pt/34pt Georgia, Arial, sans-serif;
+    font: 34px/34px Georgia, Arial, sans-serif;
     color: #fff;
     margin-bottom: 32px
 }
 
 .slider p {
-    font: 12pt/12pt Georgia, Arial, sans-serif;
+    font: 12px/12px Georgia, Arial, sans-serif;
     color: #999;
     margin-bottom: 23px;
 }
 
 .btn {
     padding: 12px 16px;
-    font: 13pt Georgia, Arial, sans-serif;
+    font: 13px Georgia, Arial, sans-serif;
     background-color: #76c38f;
     color: #fff;
     border: none;
